@@ -58,8 +58,8 @@ body
 
 .img-area .inner-area
 {
-    height: calc(100% - 10px);
-    width: calc(100% - 10px);
+    height: calc(100% - 25px);
+    width: calc(100% - 25px);
     border-radius: 50%;
 }
 

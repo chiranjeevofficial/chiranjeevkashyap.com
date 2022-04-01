@@ -247,17 +247,17 @@ body
     cursor: pointer;
     text-align: center;
     position: absolute;
-    top: 80px;
+    top: 85px;
 }
 
 .wrapper .icon.arrow
 {
-    left: 50;
+    left: 515px;
 }
 
 .wrapper .icon.dots
 {
-    right: 50;
+    right: 515px;
 }
 
 .wrapper .icon i

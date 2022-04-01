@@ -237,7 +237,7 @@ body
     pointer-events: auto;
 }
 
-/* .wrapper .icon
+.wrapper .icon
 {
     height: 35px;
     width: 35px;
@@ -264,4 +264,4 @@ body
 {
     position: relative;
     z-index: 5;
-} */
+}

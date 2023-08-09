@@ -1,17 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
-/* 
-#ecf0f3
-#ceced1
-#31344b
-#44476a
-
-#4267B2
-#1DA1F2
-#E1306C
-#ff0000
-#e0e6eb
-*/
-
 *
 {
     margin: 0%;
@@ -48,8 +35,8 @@ body
 
 .wrapper .img-area
 {
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -58,8 +45,8 @@ body
 
 .img-area .inner-area
 {
-    height: calc(100% - 25px);
-    width: calc(100% - 25px);
+    height: calc(100% - 10px);
+    width: calc(100% - 10px);
     border-radius: 50%;
 }
 
@@ -96,11 +83,15 @@ body
     height: 40px;
     width: 40px;
     margin: 0px 5px;
-    /* background: red; */
     border-radius: 50%;
     display: inline-flex;
     text-decoration: none;
     position: relative;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: #44476a;
 }
 
 .social-icons a:hover::before,
@@ -236,32 +227,3 @@ body
     opacity: 1;
     pointer-events: auto;
 }
-
-/* .wrapper .icon
-{
-    height: 35px;
-    width: 35px;
-    line-height: 35px;
-    color: #31344b;
-    opacity: .7;
-    cursor: pointer;
-    text-align: center;
-    position: absolute;
-    top: 85px;
-}
-
-.wrapper .icon.arrow
-{
-    left: 515px;
-}
-
-.wrapper .icon.dots
-{
-    right: 515px;
-}
-
-.wrapper .icon i
-{
-    position: relative;
-    z-index: 5;
-} */

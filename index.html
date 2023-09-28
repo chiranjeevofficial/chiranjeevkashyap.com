@@ -2,44 +2,66 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/ff0373ddf5.js" crossorigin="anonymous"></script><link rel="stylesheet" href="style.css">
-    <title>Chiranjeev Kashyap</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>chiranjeevkashyap.com</title>
 </head>
 <body>
-    <div class="wrapper">
-        <div class="img-area">
-            <div class="inner-area"></div>
-        </div>
-        <div class="name">Chiranjeev Kashyap</div>
-        <div class="about">Designer & Developer</div>
-        <div class="social-icons">
-            <a href="https://facebook.com/chiranjeevofficial/" class="fb"><i class="fab fa-facebook-f"></i></a>
-            <!-- <a href="#" class="tw"><i class="fab fa-twitter"></i></a> -->
-            <a href="https://instagram.com/chiranjeevofficial/" class="in"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/chiranjeevofficial/" class="ln"><i class="fab fa-linkedin"></i></a>
-        </div>
-        <div class="buttons">
-            <!-- <button type="button">Message</button> -->
-            <button><a href="https://github.com/chiranjeevofficial/">Github Profile</a></button>
-        </div>
-        <div class="social-share">
-            <div class="row">
-                <i class="far fa-heart"></i>
-                <i class="icon-2 fas fa-heart"></i>
-                <span>17.9k</span>
+    <header>
+        <a href="#home" id="logo">chiranjeevkashyap.com</a>
+        <nav>
+            <a href="#home" style="--i:1;" class="active">Home</a>
+            <a href="#project" style="--i:2;">Project</a>
+            <a href="#contact" style="--i:3;">Contact</a>
+            <a href="#about" style="--i:4;">About</a>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="home-content">
+            <h3>Namaste! Coder, I'm</h3>
+            <h1>Chiranjeev Kashyap</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, mollitia ipsa iste temporibus incidunt quisquam dicta voluptatibus laboriosam nihil neque.</p>
+            <div class="social-media">
+                <a href="#" style="--i:7;"><i class='bx bxl-facebook'></i></a>
+                <a href="#" style="--i:8;"><i class='bx bxl-linkedin'></i></a>
+                <a href="#" style="--i:9;"><i class='bx bxl-github' ></i></a>
+                <a href="#" style="--i:10;"><i class='bx bxl-youtube' ></i></a>
             </div>
-            <div class="row">
-                <i class="far fa-comment"></i>
-                <i class="icon-2 fas fa-comment"></i>
-                <span>14.22k</span>
-            </div>
-            <div class="row">
-                <i class="fas fa-share"></i>
-                <span>11.9k</span>
-            </div>
+            <a href="#" class="btn">Download CV</a>
         </div>
-    </div>
+        <div class="home-img">
+            <img src="./images/person.jpg" alt="profile-photo">
+        </div>
+    </section>
+    <section id="project">Project</section>
+    <section id="contact">
+        <img src="images/contact.jpg" alt="contact-illustration">
+        <div class="contact-form">
+            <form action="#">
+                <h2>Send Message</h2>
+                <div class="input-box">
+                    <input type="text" name="fullName" id="name" required>
+                    <span>Full Name</span>
+                </div>
+                <div class="input-box">
+                    <input type="text" name="email" id="email" required>
+                    <span>Email</span>
+                </div>
+                <div class="input-box">
+                    <textarea name="message" id="message" rows="1" required></textarea>
+                    <span>Message</span>
+                </div>
+                <div class="input-box">
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+        </div>
+    </section>
+    <section id="about">About</section>
+    <script src="https://kit.fontawesome.com/ff0373ddf5.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>

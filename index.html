@@ -4,7 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media-query.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.bx-menu').click(function() {
+                $('nav').toggleClass('show');
+            });
+        });
+    </script>
     <title>chiranjeevkashyap.com</title>
 </head>
 <body>
@@ -16,6 +25,7 @@
             <a href="#contact" style="--i:3;">Contact</a>
             <a href="#about" style="--i:4;">About</a>
         </nav>
+        <a href="#"><i class='bx bx-menu'></i></a>
     </header>
     <section id="home">
         <div class="home-content">
@@ -37,7 +47,9 @@
     </section>
     <section id="project">Project</section>
     <section id="contact">
-        <img src="images/contact.jpg" alt="contact-illustration">
+        <div class="contact-img">
+            <img src="images/contact.jpg" alt="contact-illustration">
+        </div>
         <div class="contact-form">
             <form action="#">
                 <h2>Send Message</h2>
@@ -60,7 +72,6 @@
         </div>
     </section>
     <section id="about">About</section>
-    <script src="https://kit.fontawesome.com/ff0373ddf5.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="./script.js"></script>
 </body>
